@@ -6,36 +6,34 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
+       
         { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+       
         {
           id: "JavaScript_skill",
           content: "JavaScript",
           porcentage: "90%",
           value: "90"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
+        { id: "VB.Net", content: "VB.Net", porcentage: "90%", value: "90" },
+        { id: "CSharp", content: "C#", porcentage: "90%", value: "90" },
         {
-          id: "ReactJS_skill",
+          id: "ReactJS",
           content: "ReactJS",
           porcentage: "80%",
           value: "80"
         },
+      
         {
-          id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
+          id: "MySQL",
+          content: "My SQL",
+          porcentage: "80%",
+          value: "80"
         },
+    
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
-        },
-        {
-          id: "Wordpress_skill",
-          content: "Wordpress",
+          id: "SQL_Server",
+          content: "SQL Server",
           porcentage: "80%",
           value: "80"
         }
@@ -44,17 +42,18 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "With 22yrs of IT Experience in managing IT both Technical(Hardware and Software Development)."
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            " I am a highly analytical front-end developer with expertise in HTML, CSS, JavaScript, and various front-end frameworks. I develop dynamic and responsive interfaces that meet client needs. I am a collaborative and creative front-end developer, experienced in HTML, CSS, JavaScript, and various front-end frameworks. I develop dynamic and responsive interfaces that provide an optimal user experience." + 
+            "With a deep understanding of back-end development best practices, I am an innovative developer experienced in Django and Flask. I deliver high-quality products that meet client needs."
         },
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "I also Microsoft Certified ( MCP , MCAD , MCSD ) in .Net Technologies last 2005 and ITIL ( ITIL OSA , ITSM ) last 2018. "
         }
       ]
     };
@@ -78,10 +77,13 @@ class About extends React.Component {
                           className="about-img"
                           style={{ textAlign: "center" }}
                         >
-                          <img
+                          <p>
+                            Programming Langiuages and Skills
+                          </p>
+                          {/* <img
                             className="img-fluid rounded b-shadow-a"
                             alt=""
-                          />
+                          /> */}
                         </div>
                       </div>
                     </div>

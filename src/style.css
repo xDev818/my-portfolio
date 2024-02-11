@@ -596,6 +596,12 @@ INTRO
   height: 100vh;
   position: relative;
   color: #fff;
+  background-color:  #5483b8;
+}
+
+.img-fluid {
+  height: 200px;
+  width: 100%;
 }
 
 .intro .intro-content {
@@ -701,6 +707,8 @@ PORTFOLIO
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  height: 370px;
+  margin-bottom: 30px;
 }
 
 .work-box:hover img {
@@ -724,10 +732,13 @@ PORTFOLIO
 .work-content .w-more {
   color: #4e4e4e;
   font-size: .8rem;
+  width: 330px;
+  
 }
 
 .work-content .w-more .w-ctegory {
   color: #0078ff;
+
 }
 
 .work-content .w-like {

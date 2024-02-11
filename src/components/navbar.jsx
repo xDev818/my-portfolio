@@ -1,8 +1,8 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../assets/img/male1.png";
-import logo2 from "../assets/img/male.png";
+import logo1 from "../assets/img/Avatar.png";
+import logo2 from "../assets/img/Avatar.png";
 
 class Navbar extends React.Component {
   constructor() {
