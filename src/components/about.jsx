@@ -145,8 +145,9 @@ class About extends React.Component {
                       </p> <br/>
                       <p> Software Development</p> 
                       <p>
-                       I am a highly analytical front-end developer with expertise in HTML, CSS, JavaScript, and various front-end frameworks. I develop dynamic and responsive interfaces that meet client needs. I am a collaborative and creative front-end developer, experienced in HTML, CSS, JavaScript, and various front-end frameworks. I develop dynamic and responsive interfaces that provide an optimal user experience.
-                       With a deep understanding of back-end development best practices, I am an innovative developer experienced in Django and Flask. I deliver high-quality products that meet client needs.
+                       Highly analytical software developer with knowledge in  the following HTML, CSS, JavaScript, and various front-end frameworks. 
+                       Coach / collaborate dynamic team regards to responsive interfaces that meet client requirements. 
+                       With a deep understanding of software development (Front-end and Backend  best practices.
                       </p> <br/>
                       <p> 
                         Certified in the following ( MCP , MCAD , MCSD ) in .Net Technologies last 2005 and ITIL ( ITIL OSA , ITSM ) last 2018.
