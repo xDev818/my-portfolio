@@ -16,7 +16,6 @@ git push -u origin main
 
 5. npm install --save-dev @types/jquery
 6. pnpm add -D sass
-7. npm i react-lottie
 
 https://github.com/Dorota1997/react-frontend-dev-portfolio
 
