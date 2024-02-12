@@ -104,7 +104,7 @@ class Contact extends React.Component {
                       <div className="more-info">
                         <p className="lead">
                           Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
+                          collaboration. I'd love to hear from
                           you.
                           <br />
                           Simply fill the from and send me an email.
@@ -119,7 +119,7 @@ class Contact extends React.Component {
                         <ul>
                           <li>
                             <a
-                              href=""
+                              href="#"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -130,18 +130,18 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/xDev818/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-github"></i>
+                                <i  className="ion-social-github"></i>
                               </span>
                             </a>
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="#"
                               target="_blank"
                               rel="noopener noreferrer"
                             >

@@ -24,7 +24,7 @@ class Portfolio extends React.Component {
             <div className="col-sm-12">
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
-                <p className="subtitle-a">Projects Develop from 2003 - 2015</p>
+                <p className="subtitle-a">Projects Develop from 2003 - present</p>
                 <div className="line-mf"></div>
               </div>
             </div>
@@ -32,7 +32,8 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
+                {/* <a href= "https://www.princetech.com.ph/" > */}
+                <a >
                   <div className="work-img">
                     <img src={princetech} alt="" className="img-fluid" />
                   </div>
@@ -62,13 +63,13 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={princetech}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
-                <a
+                {/* <a
                   href={stock2}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
@@ -95,12 +96,13 @@ class Portfolio extends React.Component {
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href="https://corporate.wyndhamhotels.com">
+                {/* <a href="https://corporate.wyndhamhotels.com"> */}
+                <a >
                   <div className="work-img">
                     <img src={Wyndham} alt="" className="img-fluid" />
                   </div>
@@ -126,13 +128,13 @@ class Portfolio extends React.Component {
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={Wyndham}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
-                <a
+                {/* <a
                   href={stock2}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
@@ -159,12 +161,13 @@ class Portfolio extends React.Component {
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href="https://corporate.wyndhamhotels.com">
+                {/* <a href="https://corporate.wyndhamhotels.com"> */}
+                <a >
                   <div className="work-img">
                     <img src={ach} alt="" className="img-fluid" />
                   </div>
@@ -189,7 +192,7 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                <a
+                {/* <a
                   href={stock1}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
@@ -223,12 +226,13 @@ class Portfolio extends React.Component {
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href="https://corporate.wyndhamhotels.com">
+                {/* <a href="https://corporate.wyndhamhotels.com"> */}
+                <a >
                   <div className="work-img">
                     <img src={synxis} alt="" className="img-fluid" />
                   </div>
@@ -265,7 +269,8 @@ class Portfolio extends React.Component {
             <div className="col-md-4">
               <div className="work-box">
                 {/* data-lightbox="gallery-aguadeluz" */}
-                <a href="https://dbpsc.com.ph/">
+                {/* <a href="https://dbpsc.com.ph/"> */}
+                <a >
                   <div className="work-img">
                     <img src={dbpsc} alt="" className="img-fluid" />
                   </div>
@@ -306,7 +311,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 {/* data-lightbox="gallery-aguadeluz" */}
                 {/* <a href="https://orcamining.vercel.app/"> */}
-                <a href="#">
+                <a >
                   <div className="work-img">
                     <img src={orca} alt="" className="img-fluid" />
                   </div>
