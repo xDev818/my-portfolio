@@ -343,6 +343,47 @@ class Portfolio extends React.Component {
 
               </div>
             </div>
+
+            {/* <div className="col-md-4">
+              <div className="work-box">
+               
+                <a href="#">
+                  <div className="work-img">
+                    <img src={orca} alt="" className="img-fluid" />
+                  </div>
+                  <div className="work-content">
+                    <div className="row">
+                      <div className="col-sm-8">
+                        <h2 className="w-title">
+                          ORCA Construction Material and Mining.{" "}
+                        </h2>
+                        <div className="w-more">
+                          <span className="w-ctegory">
+                            {">"} Yr : 2020-2022 <br />
+                            {">"} Languages : React, ReactJS
+                             <br />
+                            {">"} ORCA Construction and Mining was develop to market company to suitable Investor
+                          </span>{" "}
+                        </div>
+                      </div>
+                      <div className="col-sm-4">
+                        <div className="w-like">
+                          <span className="ion-ios-plus-outline"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href={orca}
+                  data-lightbox="gallery-aguadeluz"
+                  style={{ display: "none" }}
+                >
+                  jsx-a11y/anchor-has-content warning
+                </a>
+
+              </div>
+            </div> */}
           </div>
         </div>
       </section>
