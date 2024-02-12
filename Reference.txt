@@ -18,3 +18,8 @@ git push -u origin main
 6. pnpm add -D sass
 7. npm i react-lottie
 
+https://github.com/Dorota1997/react-frontend-dev-portfolio
+
+https://github.com/1hanzla100/developer-portfolio?tab=readme-ov-file
+
+https://formspree.io/forms/xzbnrpnl/integration
