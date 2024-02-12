@@ -45,6 +45,14 @@ class About extends React.Component {
             "With 22yrs of IT Experience in managing IT both Technical(Hardware and Software Development)."
         },
         {
+          id: "second-p-management",
+          content:
+            " Ensures that the policies and standards for capacity management are fit to purpose, current and correctly implemented" + 
+            "With a deep understanding of back-end development best practices, I am an innovative developer experienced in Django and Flask. I deliver high-quality products that meet client needs." + 
+            " Leads the development and Implementation of policy and Strategies for capacity and performance management to meet the business needs "
+            
+        },
+        {
           id: "second-p-about",
           content:
             " I am a highly analytical front-end developer with expertise in HTML, CSS, JavaScript, and various front-end frameworks. I develop dynamic and responsive interfaces that meet client needs. I am a collaborative and creative front-end developer, experienced in HTML, CSS, JavaScript, and various front-end frameworks. I develop dynamic and responsive interfaces that provide an optimal user experience." + 
@@ -78,7 +86,7 @@ class About extends React.Component {
                           style={{ textAlign: "center" }}
                         >
                           <p>
-                            Programming Langiuages and Skills
+                            Programming Langiuages and Others
                           </p>
                           {/* <img
                             className="img-fluid rounded b-shadow-a"
@@ -116,13 +124,40 @@ class About extends React.Component {
                       <div className="title-box-2">
                         <h5 className="title-left">About Me</h5>
                       </div>
-                      {this.state.about_me.map(content => {
+                      <p>
+                      With 22yrs of IT Experience in managing IT both Technical( Hardware and Software Development ).
+                      </p>
+                      <p>Management</p>
+                      <p>
+                      Overall management of technical operations, including management of a diverse team of skilled IT professionals.
+                      Striving to reach several relevant business targets and reporting progress to other directors / CEO. Provide expert advice and support to the organisation on the best way forward in terms of technology. 
+                      Overseeing departmental finances, including budgeting and forecasting
+
+                      </p>
+                      <br/>
+                      <p> Leadership </p>
+                      <p>
+                       Ensures that the policies and standards for capacity management are fit to purpose, current and correctly implemented 
+            With a deep understanding of software best practices, Delivered high-quality products that meet client needs.
+             Leads the development and Implementation of policy and Strategies for capacity and performance management to meet the business needs.
+             Driving Continual Service Improvement within IT to mature standard and frameworks, delivering a world-class standard of production stability and continually evolve the way services are delivered to meet the changing needs of the business.
+             Implement operations and techniques to improve efficiency of equipment operations and maximized uptime to users.
+                      </p> <br/>
+                      <p> Software Development</p> 
+                      <p>
+                       I am a highly analytical front-end developer with expertise in HTML, CSS, JavaScript, and various front-end frameworks. I develop dynamic and responsive interfaces that meet client needs. I am a collaborative and creative front-end developer, experienced in HTML, CSS, JavaScript, and various front-end frameworks. I develop dynamic and responsive interfaces that provide an optimal user experience.
+                       With a deep understanding of back-end development best practices, I am an innovative developer experienced in Django and Flask. I deliver high-quality products that meet client needs.
+                      </p> <br/>
+                      <p> 
+                        Certified in the following ( MCP , MCAD , MCSD ) in .Net Technologies last 2005 and ITIL ( ITIL OSA , ITSM ) last 2018.
+                      </p>
+                      {/* {this.state.about_me.map(content => {
                         return (
                           <p className="lead" key={content.id}>
                             {content.content}
                           </p>
                         );
-                      })}
+                      })} */}
                     </div>
                   </div>
                 </div>
