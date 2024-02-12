@@ -15,7 +15,9 @@ git branch -M main
 git push -u origin main
 
 5. npm install --save-dev @types/jquery
-6. pnpm add -D sass
+6. pnpm add -D sass / npm i -D sass
+    "node-sass": "^4.12.0",
+    npm audit fix --force
 
 https://github.com/Dorota1997/react-frontend-dev-portfolio
 
